@@ -1,6 +1,6 @@
 import sqlite3
 
-DATABASE_NAME = "tax_system.db"
+DATABASE_NAME = "tax_system_live.db"
 
 
 def create_database():
