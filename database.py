@@ -2,7 +2,6 @@ import sqlite3
 
 DATABASE_NAME = "tax_system_live.db"
 
-
 def create_database():
     connection = sqlite3.connect(DATABASE_NAME)
     cursor = connection.cursor()
