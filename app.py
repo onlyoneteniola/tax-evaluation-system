@@ -16,8 +16,7 @@ from database import (
     add_civil_servant,
     get_all_civil_servants,
     save_tax_evaluation,
-    get_all_tax_evaluations,
-    clear_all_records
+    get_all_tax_evaluations
 )
 
 from tax_calculator import calculate_tax
