@@ -143,7 +143,7 @@ def get_all_tax_evaluations():
             tax_evaluations.employee_id,
             civil_servants.full_name,
             tax_evaluations.evaluation_date,
-            tax_evaluations.gross_income, no
+            tax_evaluations.gross_income,
             tax_evaluations.deductions,
             tax_evaluations.taxable_income,
             tax_evaluations.annual_tax,
