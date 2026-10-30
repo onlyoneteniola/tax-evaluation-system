@@ -12,6 +12,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
 from database import (
+from database import clear_all_records
     create_database,
     add_civil_servant,
     get_all_civil_servants,
@@ -38,6 +39,7 @@ st.set_page_config(
 # =====================================================
 
 create_database()
+clear_all_records()
 
 # =====================================================
 # HELPER FUNCTIONS
