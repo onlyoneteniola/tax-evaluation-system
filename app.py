@@ -16,7 +16,8 @@ from database import (
     add_civil_servant,
     get_all_civil_servants,
     save_tax_evaluation,
-    get_all_tax_evaluations
+    get_all_tax_evaluations,
+    clear_all_records
 )
 
 from tax_calculator import calculate_tax
@@ -38,7 +39,6 @@ st.set_page_config(
 # =====================================================
 
 create_database()
-clear_all_records()
 
 
 # =====================================================
